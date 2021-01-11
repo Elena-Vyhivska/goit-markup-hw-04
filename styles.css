@@ -124,6 +124,7 @@ background-image: linear-gradient(
 .information-menu {
   display: flex;
   width: 1170px;
+  padding-top: 94px;
   /*margin-top: 94px;*/
 }
 
@@ -132,7 +133,8 @@ background-image: linear-gradient(
   font-size: 14px;
   line-height: 16px;
   text-transform: uppercase;
-  margin-top: 90px;
+  padding-top: 30px;
+  
 }
 .information-text {
   font-weight: normal;
