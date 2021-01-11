@@ -81,9 +81,13 @@ h4 {
 /*Загорловок*/
 .graybackground-page {
   height: 600px;
-  background-image: linear-gradient(to bottom, #c4c4c4, #c4c4c4);
-  background-image:url(./img/jpg/Imghero.jpg);
-  
+background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(./img/jpg/Imghero.jpg);
+    
   background-position: center;
 }
 .conteiner-zagol {
