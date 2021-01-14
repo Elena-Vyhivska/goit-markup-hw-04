@@ -198,9 +198,6 @@ border-radius: 0px 0px 4px 4px;
   margin-right: 10px;
 }
 
-.mast{
- 
-}
 
 .master-icon{
   width: 20px;
@@ -213,6 +210,14 @@ border-radius: 0px 0px 4px 4px;
   width: 44px;
   height: 44px;
   border-radius: 50px;
+
+  background-color: var(--main-background-color);
+  color: var(--main-color);
+}
+
+.master-linc:focus,
+.master-link:hover {
+  color: #2196f3;
 }
 
 /*секция 5 футер*/
