@@ -234,6 +234,7 @@ border-radius: 0px 0px 4px 4px;
   border-radius: 50px;
 }
 
+
 .master-linc:hover,
 .master-link:focus {
   background: #2196f3;
@@ -241,9 +242,48 @@ border-radius: 0px 0px 4px 4px;
 
 
 /*Дополнительная секция*/
+.myfile{
+width: 1170px;
+height: 377px;
+padding-top: 94px;
+padding-bottom: 94px;
+}
+.myfilcont{
+display: flex;
+justify-content: center;
+
+}
+.myfilcont .myfilc{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 170px;
+height: 90px;
+margin-right: 30px;
 
 
+}
+.myfilcont .myfilc:last-child {
+  margin-right: 0px;
+}
+.myfilc {
+  border: 1px solid #E5E5E5; 
+  border-radius: 0px 0px 4px 4px;
 
+}
+
+.prese {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+ 
+}
+
+.myfilcont .myfilc:hover,
+.myfilcont .myfilc:focus {
+color: #2196f3;
+}
 /*секция 5 футер*/
 .graybackground {
   height: 252px;
@@ -257,6 +297,28 @@ border-radius: 0px 0px 4px 4px;
   margin-top: 9px;
   margin-bottom: 9px;
 }
+.footersymbol{
+width: 206px;
+height: 80px;
+}
+.fotersvg{
+ display: flex;
+  justify-content: center;
+  padding-left: 32px;
+  padding-right: 32px;
+  padding-bottom: 30px;
+}
+.fotermast{
+display: flex;
+  justify-content: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50px;
+}
+
+
+
+
 
 /*Портфолио картинки*/
 .pictures-list{
