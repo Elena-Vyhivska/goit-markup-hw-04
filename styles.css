@@ -81,6 +81,22 @@ h4 {
   margin-right: auto;
 }
 
+.mail-tel-tem {
+  width: 16px;
+  height: 12px;
+  margin-right: 10px;
+
+
+}
+.mail-tel-ti{
+  width: 10px;
+  height: 16px;
+  margin-right: 10px;
+}
+
+.item {
+  margin-right: 30px;
+}
 /*Загорловок*/
 .graybackground-page {
   height: 600px;
@@ -207,6 +223,7 @@ border-radius: 0px 0px 4px 4px;
   width: 20px;
   height: 20px;
   margin-top: 12px;
+ 
   }
 
 .master-linc {
@@ -221,6 +238,9 @@ border-radius: 0px 0px 4px 4px;
 .master-link:focus {
   background: #2196f3;
 }
+
+
+/*Дополнительная секция*/
 
 
 
