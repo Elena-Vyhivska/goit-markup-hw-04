@@ -246,7 +246,7 @@ border-radius: 0px 0px 4px 4px;
 
 .master-icon:hover
 .master-icon:focus {
-  fill: #fff;
+  fill: #fff
 }
 
 
@@ -327,7 +327,7 @@ color: #2196f3;
 .graybackground {
   height: 252px;
   padding-top: 60px;
-  margin-top: 96px;
+  
 }
 .conteiner-footer {
  display: flex;
@@ -396,6 +396,14 @@ line-height: 16px;
 .item-list {
  border: 1px solid #EEEEEE;
 }
+.item-list:hover,
+.item-list:hover{
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
+}
+
 .feature-list {
   display: flex;
   flex-wrap: wrap;
