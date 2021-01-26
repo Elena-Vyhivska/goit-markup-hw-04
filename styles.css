@@ -71,10 +71,7 @@ h4 {
   display: flex;
   margin-left: auto;
 }
-.itemtoo:hover,
-.itemtoo:focus {
-  color: #2196f3;;
-}
+
 
 
 
@@ -249,6 +246,7 @@ border-radius: 0px 0px 4px 4px;
   width: 44px;
   height: 44px;
   border-radius: 50px;
+      
 }
 
 .master-icon:hover,
@@ -464,9 +462,7 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 }
 .change-color-mail:hover,
 .change-color-mail:focus,
-.contactable-info:hover,
-/*.button-less:hover,
-.button-less:focus*/ {
+.contactable-info:hover {
   color: #2196f3;
 }
 .change-color:hover,
