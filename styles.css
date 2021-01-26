@@ -71,6 +71,13 @@ h4 {
   display: flex;
   margin-left: auto;
 }
+.itemtoo:hover,
+.itemtoo:focus {
+  color: #2196f3;;
+}
+
+
+
 .site-too .item + .item {
   margin-left: 50px;
 }
@@ -398,7 +405,7 @@ line-height: 16px;
  border: 1px solid #EEEEEE;
 }
 .item-list:hover,
-.item-list:focus{
+.item-list:focus-within {
 background: #FFFFFF;
 border: 1px solid #EEEEEE;
 box-sizing: border-box;
