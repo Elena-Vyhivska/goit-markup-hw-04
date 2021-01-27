@@ -226,6 +226,7 @@ border-radius: 0px 0px 4px 4px;
   padding-left: 32px;
   padding-right: 32px;
   padding-bottom: 30px;
+ 
 }
 
 .master-social > .mast:not(:last-child) {
@@ -237,7 +238,7 @@ border-radius: 0px 0px 4px 4px;
   width: 20px;
   height: 20px;
   margin-top: 12px;
-  fill:  #AFB1B8;
+  fill: currentColor;
   }
 
 .master-linc {
@@ -246,11 +247,12 @@ border-radius: 0px 0px 4px 4px;
   width: 44px;
   height: 44px;
   border-radius: 50px;
+   color:  #AFB1B8;
       
 }
 
-.master-icon:hover,
-.master-icon:focus {
+.master-linc:hover .master-icon,
+.master-linc:focus .master-icon {
   fill: #fff;
  
  }
@@ -259,7 +261,7 @@ border-radius: 0px 0px 4px 4px;
 .master-linc:hover,
 .master-linc:focus {
   background: #2196f3;
-
+ 
 }
 
 /*Дополнительная секция*/
