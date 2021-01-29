@@ -70,6 +70,7 @@ h4 {
 .site-too {
   display: flex;
   margin-left: auto;
+  align-items: center;
 }
 
 
@@ -89,17 +90,28 @@ h4 {
   width: 16px;
   height: 12px;
   margin-right: 10px;
-
-
+  fill: #757575;
+  }
+.mail-tel-tem:hover,
+.mail-tel-tem:focus {
+  fill: #2196f3;
 }
-.mail-tel-ti{
+ 
+ .mail-tel-ti{
   width: 10px;
   height: 16px;
   margin-right: 10px;
+  fill: #757575;
 }
+.mail-tel-ti:hover,
+.mail-tel-ti:focus {
+  fill: #2196f3;
+}
+ 
 
 .item {
   margin-right: 30px;
+  
 }
 /*Загорловок*/
 .graybackground-page {
@@ -262,6 +274,20 @@ border-radius: 0px 0px 4px 4px;
 .master-linc:focus {
   background: #2196f3;
  
+}
+.mast {
+  display: flex;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50px;
+    color: #AFB1B8;
+}
+
+.mast:hover,
+.mast:hover {
+  fill: #fff;
+  background: #2196f3;
 }
 
 /*Дополнительная секция*/
@@ -461,11 +487,14 @@ box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1p
 }
 .change-color-mail {
   color: #757575;
+  display: flex;
+  align-items: center;
 }
 .change-color-mail:hover,
 .change-color-mail:focus,
 .contactable-info:hover {
   color: #2196f3;
+  
 }
 .change-color:hover,
 .change-color:focus {
